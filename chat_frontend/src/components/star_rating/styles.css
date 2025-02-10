@@ -1,0 +1,22 @@
+.star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.star {
+    font-size: 1.5rem;
+    color: #FFD700;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+
+}
+
+.star_empty {
+    font-size: 2rem;
+    color: #D3D3D3;
+    cursor: pointer;
+
+}

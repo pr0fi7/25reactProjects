@@ -1,0 +1,33 @@
+.loadmore_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  display:  flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.products_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.loadmore_button {
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}

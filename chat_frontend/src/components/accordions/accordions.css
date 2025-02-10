@@ -1,0 +1,84 @@
+/* Styles for the main accordion container */
+.container {
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Wrapper to hold all questions */
+.wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Each accordion question */
+.question{
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.question:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect for each question */
+.question:hover {
+    background-color: #f1f1f1;
+}
+
+/* Header section of the question */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.header:hover {
+    color: #007bff;
+}
+
+/* The + symbol to indicate expansion */
+.question span {
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show answer when selected */
+.question .content {
+    padding: 10px;
+    background-color: #fff;
+    border-left: 4px solid #007bff;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.multiple_selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    background-color: #0688a5;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}
